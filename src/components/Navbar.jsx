@@ -16,6 +16,7 @@ const Navbar = () => {
       <div style={styles.links}>
         <Link to="/todos" style={styles.link}>Todos</Link>
         <Link to="/login" style={styles.link}>Login</Link>
+        <Link to="/calendar" style={styles.link}>Calendar</Link>
         <button onClick={handleLogout} style={styles.button}>Logout</button>
       </div>
     </nav>
